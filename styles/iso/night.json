@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "name": "暗夜工程",
+    "route": "iso",
+    "mood": ["硬核", "极客", "深夜", "暗色"],
+    "best_for": "架构链路、服务器/运维流程、夜间模式科技故事",
+    "visual_note": "深蓝灰夜底 + 高对比霓虹分类色，极客工程感"
+  },
+  "bg": "#141A1F",
+  "ink": "#E9EEF0",
+  "muted": "#8A979E",
+  "rule": "#2C3740",
+  "road": "#26313A",
+  "curb": "#1B242B",
+  "dash": "#5B6B76",
+  "card": "#1D262D",
+  "cardline": "#2F3B44",
+  "shadow": "#0E1317",
+  "plinth": "#2A353E",
+  "plinth_top": "#34414B",
+  "leaf": "#5E8C6A",
+  "trunk": "#6B5440",
+  "paver": "#3B4852",
+  "metal": "#8D99A3",
+  "screen": "#0B1014",
+  "dark": "#2B343C",
+  "wood": "#8C6B4C",
+  "pillar": "#4A5761",
+  "mug": "#E0533D",
+  "red": "#E0533D",
+  "kinds": ["#4FC3B0", "#6BA8F0", "#B5C46A", "#E0A64F", "#E86A50", "#A68BE8", "#5FB0E8", "#D9A07A"]
+}

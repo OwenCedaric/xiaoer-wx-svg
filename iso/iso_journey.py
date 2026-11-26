@@ -28,23 +28,21 @@ W = 1080
 CN = "PingFang SC,Noto Sans CJK SC,Microsoft YaHei,sans-serif"
 MONO = "SFMono-Regular,Menlo,Consolas,monospace"
 
-PALETTES = {
-    "paper": dict(bg="#F5F1E8", ink="#25343A", muted="#7C8782", rule="#D8D6CC", road="#E3DDCE", curb="#C9C1AE",
-                  dash="#FFFDF6", card="#FFFFFF", cardline="#E1DDD2", shadow="#E6E0D2", plinth="#ECE5D6",
-                  plinth_top="#F8F4EB", leaf="#7FA36A", trunk="#8A6A4A", paver="#E9E2D2", metal="#C9CED1",
-                  screen="#22313A", dark="#3A4650", wood="#C59A6A", pillar="#D9D2C3", mug="#D9452B", red="#D9452B",
-                  kinds=["#2F6D6A", "#4B8EA0", "#8A9A5B", "#B07D3E", "#C4553D", "#6D5D9A", "#3F7FB8", "#9A6B4F"]),
-    "fm": dict(bg="#ECE4D5", ink="#2E2A26", muted="#8A7F73", rule="#D8CCB9", road="#E2D7C4", curb="#D3C6B1",
-               dash="#F7F2E8", card="#FBF7F0", cardline="#E0D5C3", shadow="#DFD3C0", plinth="#E6DCCB",
-               plinth_top="#F3EDE2", leaf="#A9B48F", trunk="#8A6A4A", paver="#E9E0D0", metal="#D8D0C2",
-               screen="#47413A", dark="#3A332C", wood="#C9A27A", pillar="#DCD1BF", mug="#D0664E", red="#D0664E",
-               kinds=["#D0664E", "#BE4F39", "#C9785F", "#A8573F", "#D0664E", "#BE4F39", "#C9785F", "#A8573F"]),
-    "night": dict(bg="#141A1F", ink="#E9EEF0", muted="#8A979E", rule="#2C3740", road="#26313A", curb="#1B242B",
-                  dash="#5B6B76", card="#1D262D", cardline="#2F3B44", shadow="#0E1317", plinth="#2A353E",
-                  plinth_top="#34414B", leaf="#5E8C6A", trunk="#6B5440", paver="#3B4852", metal="#8D99A3",
-                  screen="#0B1014", dark="#2B343C", wood="#8C6B4C", pillar="#4A5761", mug="#E0533D", red="#E0533D",
-                  kinds=["#4FC3B0", "#6BA8F0", "#B5C46A", "#E0A64F", "#E86A50", "#A68BE8", "#5FB0E8", "#D9A07A"]),
-}
+_ISO_STYLES_DIR = ROOT / "styles" / "iso"
+
+
+def _load_palettes():
+    loaded = {}
+    if not _ISO_STYLES_DIR.is_dir():
+        return loaded
+    for path in sorted(_ISO_STYLES_DIR.glob("*.json")):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        data.pop("meta", None)
+        loaded[path.stem] = data
+    return loaded
+
+
+PALETTES = _load_palettes()
 
 HEAD = 520      # 抬头高度
 GAP = 560       # 相邻两站的竖直距离

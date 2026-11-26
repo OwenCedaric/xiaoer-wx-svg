@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "name": "夜紫幻境",
+    "route": "motion",
+    "mood": ["未来", "梦幻", "AI", "创意科技"],
+    "best_for": "AIGC 创意工具、音乐/视觉生成产品、前沿探索",
+    "visual_note": "深夜紫底 + 霓虹紫强调色，具未来与想象力"
+  },
+  "bg": "#17142a",
+  "panel": "#211d38",
+  "deep": "#0f0d1d",
+  "line": "#332e52",
+  "accent": "#a78bfa",
+  "accent_dim": "#8b6cf0",
+  "on_accent": "#17142a",
+  "text": "#ece9fb",
+  "grey": "#9690b8",
+  "grid": 0.05,
+  "win_dark": {
+    "bg": "#211d38",
+    "panel": "#282342",
+    "deep": "#1a1730",
+    "text": "#ece9fb",
+    "sub": "#9690b8",
+    "line": "#3a3460",
+    "edge": "#353057"
+  },
+  "win_light": {
+    "bg": "#e6e3f5",
+    "panel": "#eeebfa",
+    "deep": "#d9d4ee",
+    "text": "#211d38",
+    "sub": "#6c668e",
+    "line": "#cfc9e8",
+    "edge": "#f7f6fd"
+  },
+  "swatches": ["#a78bfa", "#f472b6", "#22d3ee", "#facc15", "#34d399", "#fb7185", "#9690b8"]
+}

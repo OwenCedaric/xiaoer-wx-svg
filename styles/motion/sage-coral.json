@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "name": "鼠尾草珊瑚",
+    "route": "motion",
+    "mood": ["温柔", "轻巧", "创意", "生活美学"],
+    "best_for": "独立产品、女性/生活方式、设计工具、轻量化 App",
+    "visual_note": "深鼠尾草绿底 + 珊瑚粉强调色，柔和且有记忆点"
+  },
+  "bg": "#1b211e",
+  "panel": "#242c27",
+  "deep": "#141917",
+  "line": "#34403a",
+  "accent": "#ff8a7a",
+  "accent_dim": "#e86b5b",
+  "accent2": "#a8c3a0",
+  "on_accent": "#1b211e",
+  "text": "#f1f0ea",
+  "grey": "#94a39a",
+  "grid": 0.05,
+  "win_dark": {
+    "bg": "#242c27",
+    "panel": "#2b342f",
+    "deep": "#1e2521",
+    "text": "#f1f0ea",
+    "sub": "#94a39a",
+    "line": "#3a4740",
+    "edge": "#34403a"
+  },
+  "win_light": {
+    "bg": "#eef1ea",
+    "panel": "#f6f7f2",
+    "deep": "#e1e7dc",
+    "text": "#242c27",
+    "sub": "#6f7d74",
+    "line": "#d5ddd0",
+    "edge": "#ffffff"
+  },
+  "swatches": ["#ff8a7a", "#a8c3a0", "#f7c59f", "#9fc5c9", "#c9a7d8", "#f2e394", "#94a39a"]
+}

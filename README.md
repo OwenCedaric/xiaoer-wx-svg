@@ -11,8 +11,15 @@
 这个仓库本身就是一个 **Agent Skill**（入口 [`SKILL.md`](SKILL.md)），Claude Code、Codex、Cursor 这类 agent 都能直接用。
 
 ```bash
+# 推荐：一键安装到 Claude Code / Codex / Cursor（全局）
+npx skills add OwenCedaric/xiaoer-wx-svg -a claude-code codex cursor -g -y
+
+# 仅安装到当前项目内（去掉 -g）
+npx skills add OwenCedaric/xiaoer-wx-svg -a claude-code codex cursor -y
+
+# 或者手动 clone：
 # Claude Code
-git clone https://github.com/Jane-xiaoer/xiaoer-wx-svg ~/.claude/skills/xiaoer-wx-svg
+git clone https://github.com/OwenCedaric/xiaoer-wx-svg ~/.claude/skills/xiaoer-wx-svg
 # 其他 agent：clone 到任意位置，让它先读 SKILL.md
 ```
 

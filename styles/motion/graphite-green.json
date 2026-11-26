@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "name": "石墨绿",
+    "route": "motion",
+    "mood": ["科技", "极简", "专业", "暗色"],
+    "best_for": "AI 产品、效率工具、开发者软件、SaaS 介绍",
+    "visual_note": "深石墨灰底 + 品牌亮绿强调色，冷静克制的科技感"
+  },
+  "bg": "#232629",
+  "panel": "#2b2e33",
+  "deep": "#1a1c1f",
+  "line": "#3a3e45",
+  "accent": "#7BC043",
+  "accent_dim": "#5f9a30",
+  "on_accent": "#1a1c1f",
+  "text": "#e9ecef",
+  "grey": "#8d949c",
+  "grid": 0.04,
+  "win_dark": {
+    "bg": "#2b2e33",
+    "panel": "#31353b",
+    "deep": "#25282c",
+    "text": "#e6e9ed",
+    "sub": "#8d949c",
+    "line": "#3d424a",
+    "edge": "#3a3f46"
+  },
+  "win_light": {
+    "bg": "#E0E5EC",
+    "panel": "#e7ebf1",
+    "deep": "#d3d9e2",
+    "text": "#2b2e33",
+    "sub": "#6b7480",
+    "line": "#c9d0da",
+    "edge": "#f4f7fb"
+  },
+  "swatches": ["#4d88ff", "#7BC043", "#2ec4c4", "#9b7bff", "#ff9f43", "#ff5a5f", "#9aa0a6"]
+}

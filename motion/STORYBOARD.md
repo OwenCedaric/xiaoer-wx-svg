@@ -20,7 +20,7 @@
 {
   "title": "推文标题（≤24 字，利益前置，带数字更好）",
   "digest": "摘要（≤50 字）",
-  "theme": "graphite-green | ember | paper-red | ink-gold | violet-night | sage-coral",
+  "theme": "graphite-green | ember | paper-red | ink-gold | violet-night | sage-coral | chronicle-light | chronicle-dark",
   "cover_line": "封面上那一行（≤16 字）",
   "tail": ["正文末尾小字第一行（网址/平台）", "第二行（可选）"],
   "scenes": [ ...场景... ]
@@ -166,7 +166,14 @@
 | todos | 0–4 条待办（会依次打勾划掉） | 18 字 |
 | caption | 底部一句 | 30 字 |
 
-主题另有 `sage-coral`（鼠尾草绿 + 珊瑚粉，温柔、生活、声音类）。
+主题另有 `sage-coral`（鼠尾草绿 + 珊瑚粉，温柔、生活、声音类），以及深度定制的 `chronicle-light` / `chronicle-dark`（编年体杂志长文风，**主题作者：Cedaric**）。
+
+### Chronicle 专属杂志场景（主题作者：Cedaric，适合深度长文 / 思想随笔 / 访谈）
+
+- **`chronicle_hero`**：`kicker`（英文小标）、`mark`（空心描边巨字，1–2 字）、`title`（衬线主标题）、`subtitle`（左对齐细体导语）、`meta`（底栏注记）。
+- **`chronicle_epigraph`**：`section`（虚线章节标题）、`watermark`（可选背景大水印字）、`epigraph`（居中斜体引语）、`keyword`（可选强调关键词）、`paragraphs`（1–3 段左对齐细体长文）。
+- **`chronicle_chat`**：`kicker`、`title`、`messages`（`[{"side": "left|right", "speaker": "说话人", "text": "内容"}]`，最多 5 条）、`caption`（底部小字）。
+- **`chronicle_coda`**：`top`（上框行）、`mark`（巨型空心描边收尾字，1–2 字）、`bottom`（下框行）、`url`（强调色链接或署名）、`note`（底部注记）。
 
 ## 写法建议
 

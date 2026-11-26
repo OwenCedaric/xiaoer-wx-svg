@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "name": "奶油珊瑚",
+    "route": "iso",
+    "mood": ["浪漫", "故事感", "复古", "生活"],
+    "best_for": "带图片帧的产品故事、创意产品、情感化品牌叙事",
+    "visual_note": "奶油米底 + 珊瑚红，适合搭配作品图与对话泡泡"
+  },
+  "bg": "#ECE4D5",
+  "ink": "#2E2A26",
+  "muted": "#8A7F73",
+  "rule": "#D8CCB9",
+  "road": "#E2D7C4",
+  "curb": "#D3C6B1",
+  "dash": "#F7F2E8",
+  "card": "#FBF7F0",
+  "cardline": "#E0D5C3",
+  "shadow": "#DFD3C0",
+  "plinth": "#E6DCCB",
+  "plinth_top": "#F3EDE2",
+  "leaf": "#A9B48F",
+  "trunk": "#8A6A4A",
+  "paver": "#E9E0D0",
+  "metal": "#D8D0C2",
+  "screen": "#47413A",
+  "dark": "#3A332C",
+  "wood": "#C9A27A",
+  "pillar": "#DCD1BF",
+  "mug": "#D0664E",
+  "red": "#D0664E",
+  "kinds": ["#D0664E", "#BE4F39", "#C9785F", "#A8573F", "#D0664E", "#BE4F39", "#C9785F", "#A8573F"]
+}

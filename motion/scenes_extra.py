@@ -352,4 +352,7 @@ def search(d, y, t, th):
     return out, max(8.0, t3 - t + 4.2)
 
 
-SCENES = {"receipt": receipt, "devices": devices, "fanout": fanout, "live": live, "search": search}
+import scenes_chronicle
+
+SCENES = {"receipt": receipt, "devices": devices, "fanout": fanout, "live": live, "search": search,
+          **scenes_chronicle.SCENES}

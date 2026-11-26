@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "name": "暖纸朱红",
+    "route": "motion",
+    "mood": ["人文", "出版", "克制", "浅色"],
+    "best_for": "方法论、深度长文、出版物、文化/教育类内容",
+    "visual_note": "暖米白纸感浅底 + 朱红点缀，像现代印刷品"
+  },
+  "bg": "#f3efe6",
+  "panel": "#fbf8f2",
+  "deep": "#e4ddd0",
+  "line": "#ddd5c6",
+  "accent": "#d9452b",
+  "accent_dim": "#b8361f",
+  "on_accent": "#fbf8f2",
+  "light": true,
+  "text": "#2a2622",
+  "grey": "#857c71",
+  "grid": 0.06,
+  "win_dark": {
+    "bg": "#2b2724",
+    "panel": "#34302c",
+    "deep": "#221f1c",
+    "text": "#f1ece5",
+    "sub": "#9c9388",
+    "line": "#46403a",
+    "edge": "#3e3833"
+  },
+  "win_light": {
+    "bg": "#fbf8f2",
+    "panel": "#f3eee5",
+    "deep": "#e8e1d4",
+    "text": "#2a2622",
+    "sub": "#857c71",
+    "line": "#e0d8ca",
+    "edge": "#ffffff"
+  },
+  "swatches": ["#d9452b", "#e8a33d", "#3f7d5a", "#2f5d8a", "#7a4e9c", "#c2577a", "#857c71"]
+}

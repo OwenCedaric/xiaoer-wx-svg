@@ -1,0 +1,64 @@
+{
+  "title": "品牌 VI 发布会：克制、秩序与纯矢量质感",
+  "digest": "墨黑流金主题示例：展示品牌发布会与 VI 手册规范下的纯 SVG 动效长图。",
+  "theme": "ink-gold",
+  "cover_line": "秩序感，是品牌最好的视觉语言",
+  "tail": [
+    "xiaoer-wx-svg · 品牌 VI 路线示例",
+    "github.com/OwenCedaric/xiaoer-wx-svg"
+  ],
+  "scenes": [
+    {
+      "type": "collapse",
+      "intro": "品牌长图最怕什么？",
+      "intro_sub": "花哨动效盖过品牌调性",
+      "tags": ["强行弹跳", "廉价渐变", "杂乱配色", "字体失真", "投影过重", "节奏失控", "风格割裂", "加载卡顿"],
+      "brand": "ATELIER",
+      "slogan": "FORM FOLLOWS ORDER",
+      "tagline": "克制的纯矢量品牌叙事",
+      "subline": "墨黑流金 · 只保留淡入、描线与标尺秩序"
+    },
+    {
+      "type": "blueprint",
+      "kicker": "VI SPECIFICATION · GRID",
+      "title": "每一毫米比例，都按标尺精确绘制",
+      "art": "house",
+      "dim_w": "1080mm",
+      "dim_h": "1920mm",
+      "badge": "品牌 VI 规范 · 纯矢量",
+      "caption": "标尺测量线与线稿自绘，保持高端印刷级秩序"
+    },
+    {
+      "type": "statement",
+      "kicker": "BRAND DISCIPLINE",
+      "title": "品牌视觉的三条底线",
+      "mark": "VI",
+      "points": [
+        "只使用品牌主色与中性底色，绝不引入无关警示色",
+        "标题可转曲保证字形一致，正文保持清晰易读",
+        "克制动画节奏，让读者把注意力留给产品本身"
+      ]
+    },
+    {
+      "type": "price",
+      "kicker": "DELIVERY",
+      "title": "两种交付方式，同样严谨",
+      "cards": [
+        {
+          "name": "草稿箱直推",
+          "price": "--push",
+          "badge": "推荐",
+          "highlight": true,
+          "items": ["自动传微信图床", "标签数自动核对", "仅存草稿不代发"]
+        },
+        {
+          "name": "粘贴台体检",
+          "price": "/paste/",
+          "items": ["零密钥浏览器本地处理", "自动扫描禁用标签", "一键复制粘入编辑器"]
+        }
+      ],
+      "note": "适合高端品牌发布、建筑设计、年度报告",
+      "url": "github.com/OwenCedaric/xiaoer-wx-svg"
+    }
+  ]
+}

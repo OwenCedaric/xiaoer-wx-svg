@@ -1,0 +1,63 @@
+{
+  "title": "AI Agent 工作流：一句话改写文档与自动换肤",
+  "digest": "夜紫幻境主题示例：展示终端指令改写、明暗扫光换肤与搜索待办动画。",
+  "theme": "violet-night",
+  "cover_line": "一句话，驱动整篇排版重构",
+  "tail": [
+    "xiaoer-wx-svg · AI 工作流示例",
+    "github.com/OwenCedaric/xiaoer-wx-svg"
+  ],
+  "scenes": [
+    {
+      "type": "agent",
+      "kicker": "AI AGENT · LIVE REWRITE",
+      "title": "终端打一句指令，正文实时改写",
+      "terminal": "Claude Code",
+      "prompt": "把这段介绍改成更克制的编辑部语气",
+      "reply": "已完成改写并校对事实",
+      "doc_tab": "article.md",
+      "doc_title": "产品介绍",
+      "before": "颠覆行业的下一代智能工具！",
+      "after": "打开即用的纯 SVG 长图工作流",
+      "abilities": [
+        ["读资料", "只用你提供的真实事实"],
+        ["选风格", "按题材自动匹配或建议主题"],
+        ["自检", "生成后自动截帧检查排版"],
+        ["交付", "推草稿箱或粘贴台体检"]
+      ],
+      "footer": ["支持 Claude Code · Codex · Cursor"]
+    },
+    {
+      "type": "skin",
+      "kicker": "THEME SWITCH · SWEEP",
+      "title": "一道光扫过，从浅纸切到暗夜",
+      "subtitle": "同一套内容，适配不同阅读氛围",
+      "window": {
+        "tab": "styles/motion/",
+        "sidebar": ["graphite-green", "chronicle-light", "chronicle-dark", "violet-night", "ink-gold"],
+        "doc": {
+          "title": "独立主题系统",
+          "meta": "放入 JSON 即可扩展全新风格"
+        }
+      },
+      "caption": "明暗皮肤与色板完全解耦，随时一键切换",
+      "footnote": "11 套内置风格 · 支持自定义拓展"
+    },
+    {
+      "type": "search",
+      "query": "SVG",
+      "results": [
+        ["微信 SVG 规矩表", "实测保留 animate 与 SVG 原生动画"],
+        ["粘贴台自动体检", "本地扫描 SVG 禁用标签与体积上限"]
+      ],
+      "ask": ["能直接发公众号吗？", "只推草稿箱，由你预览后再发布"],
+      "todos": [
+        "读取题材与事实资料",
+        "匹配或新建主题风格 JSON",
+        "生成长图并完成截帧自检",
+        "推送草稿箱或粘贴台一键复制"
+      ],
+      "caption": "全流程可控可核验 · 事实不靠猜"
+    }
+  ]
+}

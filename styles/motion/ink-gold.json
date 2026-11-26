@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "name": "墨黑流金",
+    "route": "motion",
+    "mood": ["高端", "质感", "发布会", "沉稳"],
+    "best_for": "旗舰产品发布、年度报告、高端品牌、金融/商务",
+    "visual_note": "纯墨黑底 + 哑光金色，仪式感与高级感强"
+  },
+  "bg": "#121212",
+  "panel": "#1c1c1c",
+  "deep": "#0a0a0a",
+  "line": "#2e2b25",
+  "accent": "#d4af37",
+  "accent_dim": "#a8892a",
+  "on_accent": "#121212",
+  "text": "#f2efe8",
+  "grey": "#9a9488",
+  "grid": 0.05,
+  "win_dark": {
+    "bg": "#1c1c1c",
+    "panel": "#232220",
+    "deep": "#151514",
+    "text": "#f2efe8",
+    "sub": "#9a9488",
+    "line": "#34312b",
+    "edge": "#2f2c27"
+  },
+  "win_light": {
+    "bg": "#ece7dc",
+    "panel": "#f4f0e8",
+    "deep": "#ddd6c8",
+    "text": "#1c1c1c",
+    "sub": "#6f685c",
+    "line": "#d6cfc0",
+    "edge": "#faf7f1"
+  },
+  "swatches": ["#d4af37", "#e8d48b", "#b87333", "#c0c0c0", "#8c6d46", "#f2efe8", "#9a9488"]
+}

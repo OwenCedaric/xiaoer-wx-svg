@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "name": "编年体 · 浅纸（Chronicle Light）",
+    "author": "Cedaric",
+    "source": "Chronicle Design System",
+    "route": "motion",
+    "mood": ["杂志", "极简", "长文", "克制", "浅色"],
+    "best_for": "深度长文、思想随笔、人物访谈、品牌理念、极简编辑部风格推文",
+    "visual_note": "暖米白底 #fbf9f6 + 单一雾霾蓝 #82a1b9，无投影、衬线/无衬线极性排版、大留白呼吸感（主题作者：Cedaric）"
+  },
+  "bg": "#fbf9f6",
+  "panel": "#f1efec",
+  "deep": "#e7e4df",
+  "line": "#d6d3cf",
+  "accent": "#82a1b9",
+  "accent_dim": "#63839c",
+  "on_accent": "#fbf9f6",
+  "light": true,
+  "text": "#3d4451",
+  "grey": "#757d8a",
+  "grid": 0,
+  "win_dark": {
+    "bg": "#1c1f26",
+    "panel": "#292d36",
+    "deep": "#14171d",
+    "text": "#d2d6dd",
+    "sub": "#a0a7b4",
+    "line": "#40444d",
+    "edge": "#343841"
+  },
+  "win_light": {
+    "bg": "#fbf9f6",
+    "panel": "#f1efec",
+    "deep": "#e7e4df",
+    "text": "#3d4451",
+    "sub": "#757d8a",
+    "line": "#d6d3cf",
+    "edge": "#ffffff"
+  },
+  "swatches": ["#82a1b9", "#3d4451", "#757d8a", "#9cb4cd", "#d6d3cf", "#f1efec", "#fbf9f6"]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "name": "炭黑余烬橙",
+    "route": "motion",
+    "mood": ["热烈", "生活", "声音", "温暖"],
+    "best_for": "消费电子、音频/播客产品、生活服务、活动宣发",
+    "visual_note": "深炭黑底 + 温暖余烬橙，有温度和能量感"
+  },
+  "bg": "#1f1a17",
+  "panel": "#2a231f",
+  "deep": "#15110f",
+  "line": "#3d332d",
+  "accent": "#ff7a3d",
+  "accent_dim": "#d95f24",
+  "on_accent": "#1f1a17",
+  "text": "#f3ece6",
+  "grey": "#a3958a",
+  "grid": 0.05,
+  "win_dark": {
+    "bg": "#2a231f",
+    "panel": "#322a25",
+    "deep": "#211b18",
+    "text": "#f3ece6",
+    "sub": "#a3958a",
+    "line": "#463a33",
+    "edge": "#40352f"
+  },
+  "win_light": {
+    "bg": "#efe6dd",
+    "panel": "#f5ede5",
+    "deep": "#e2d6ca",
+    "text": "#2a231f",
+    "sub": "#7a6b60",
+    "line": "#dccdbf",
+    "edge": "#fbf6f1"
+  },
+  "swatches": ["#ff7a3d", "#ffb347", "#ff5a5f", "#e8c07d", "#c97b63", "#9b7bff", "#a3958a"]
+}

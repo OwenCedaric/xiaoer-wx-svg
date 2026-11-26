@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "name": "编年体 · 暗夜（Chronicle Dark）",
+    "author": "Cedaric",
+    "source": "Chronicle Design System",
+    "route": "motion",
+    "mood": ["杂志", "极简", "长文", "沉静", "暗色"],
+    "best_for": "深度长文、夜间阅读、思想随笔、产品哲学、对话叙事",
+    "visual_note": "深青灰底 #1c1f26 + 单一冰雾蓝 #9cb4cd，无投影、衬线/无衬线极性排版、大留白呼吸感（主题作者：Cedaric）"
+  },
+  "bg": "#1c1f26",
+  "panel": "#292d36",
+  "deep": "#14171d",
+  "line": "#40444d",
+  "accent": "#9cb4cd",
+  "accent_dim": "#7d98b3",
+  "on_accent": "#1c1f26",
+  "text": "#d2d6dd",
+  "grey": "#a0a7b4",
+  "grid": 0,
+  "win_dark": {
+    "bg": "#1c1f26",
+    "panel": "#292d36",
+    "deep": "#14171d",
+    "text": "#d2d6dd",
+    "sub": "#a0a7b4",
+    "line": "#40444d",
+    "edge": "#343841"
+  },
+  "win_light": {
+    "bg": "#fbf9f6",
+    "panel": "#f1efec",
+    "deep": "#e7e4df",
+    "text": "#3d4451",
+    "sub": "#757d8a",
+    "line": "#d6d3cf",
+    "edge": "#ffffff"
+  },
+  "swatches": ["#9cb4cd", "#d2d6dd", "#a0a7b4", "#82a1b9", "#40444d", "#292d36", "#1c1f26"]
+}

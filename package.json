@@ -1,0 +1,10 @@
+{
+  "name": "xiaoer-wx-svg-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "小耳公众号SVG · Chronicle 编年体演示站与可扩展主题库",
+  "scripts": {
+    "build": "node site/build.mjs"
+  }
+}

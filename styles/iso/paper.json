@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "name": "浅纸微缩",
+    "route": "iso",
+    "mood": ["明快", "纸感", "叙事", "浅色"],
+    "best_for": "工作流拆解、硬件/桌面故事、轻量流程、科普路线",
+    "visual_note": "暖白纸感底 + 多彩分类标签，清晰易读"
+  },
+  "bg": "#F5F1E8",
+  "ink": "#25343A",
+  "muted": "#7C8782",
+  "rule": "#D8D6CC",
+  "road": "#E3DDCE",
+  "curb": "#C9C1AE",
+  "dash": "#FFFDF6",
+  "card": "#FFFFFF",
+  "cardline": "#E1DDD2",
+  "shadow": "#E6E0D2",
+  "plinth": "#ECE5D6",
+  "plinth_top": "#F8F4EB",
+  "leaf": "#7FA36A",
+  "trunk": "#8A6A4A",
+  "paver": "#E9E2D2",
+  "metal": "#C9CED1",
+  "screen": "#22313A",
+  "dark": "#3A4650",
+  "wood": "#C59A6A",
+  "pillar": "#D9D2C3",
+  "mug": "#D9452B",
+  "red": "#D9452B",
+  "kinds": ["#2F6D6A", "#4B8EA0", "#8A9A5B", "#B07D3E", "#C4553D", "#6D5D9A", "#3F7FB8", "#9A6B4F"]
+}

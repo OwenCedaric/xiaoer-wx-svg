@@ -1,0 +1,131 @@
+{
+  "title": "小耳公众号SVG：没有视频与 JS，公众号文章如何自己动起来",
+  "digest": "8 屏完整演示 xiaoer-wx-svg 的核心原理、18 种矢量场景、点击互动与微信兼容边界。",
+  "theme": "chronicle-light",
+  "cover_line": "纯 SVG 动效，打开即自己生长",
+  "tail": [
+    "xiaoer-wx-svg · MIT 开源（Chronicle 主题作者：Cedaric）",
+    "github.com/OwenCedaric/xiaoer-wx-svg"
+  ],
+  "scenes": [
+    {
+      "type": "chronicle_hero",
+      "kicker": "XIAOER-WX-SVG · AGENT SKILL",
+      "mark": "动",
+      "title": "让公众号文章自己动起来",
+      "subtitle": "没有视频、没有 GIF、没有一行 JS。仅凭纯 SVG 原生时间轴，往下拉一屏屏长出来。",
+      "meta": "CHRONICLE THEME BY CEDARIC · 8 SCREENS"
+    },
+    {
+      "type": "chronicle_epigraph",
+      "section": "核心机制",
+      "watermark": "理",
+      "epigraph": "“微信公众号会删掉 JS 与样式表，却完整保留了 SVG 原生的时间轴动画。”",
+      "keyword": "ZERO-HEIGHT CONTAINER",
+      "paragraphs": [
+        "引擎将整张动效长图放进高度为 0 的容器里浮在上方，下方放置一块透明画布。随着时间轴推进，透明画布改变宽度并按宽高比同步撑开高度。",
+        "读者打开文章的那一刻，页面就会自动一屏屏向下生长：线稿自己画、数字滚动、3D 零件一块块拼好。"
+      ]
+    },
+    {
+      "type": "counter",
+      "kicker": "CAPABILITY MATRIX",
+      "number": 18,
+      "suffix": "种",
+      "caption": "内置纯矢量动效场景，零依赖直接渲染",
+      "tags": ["线稿自绘", "逐字打出", "数字滚动", "等轴测3D", "点击揭开", "品牌VI", "视频改编", "草稿核对"],
+      "bars": [
+        ["动效场景", 18],
+        ["主题风格", 11],
+        ["创作路线", 5],
+        ["3D 模型", 8]
+      ]
+    },
+    {
+      "type": "blueprint",
+      "kicker": "VECTOR STROKE ANIMATION",
+      "title": "每一根线条，都按坐标实时绘制",
+      "art": "device",
+      "dim_w": "1080px",
+      "dim_h": "1920px",
+      "badge": "stroke-dashoffset · 纯矢量无位图",
+      "caption": "不依赖视频或动图压缩，任意分辨率下保持锐利"
+    },
+    {
+      "type": "trio",
+      "items": [
+        {"big": "选", "en": "STYLE ROUTE", "sub": "按题材匹配主题"},
+        {"big": "画", "en": "PURE SVG", "sub": "生成与截帧自检"},
+        {"big": "推", "en": "DELIVERY", "sub": "草稿箱或粘贴台"}
+      ],
+      "flow": ["读取资料", "风格决策", "交付草稿"],
+      "rows": [
+        "5 条路线：套模板 / 等轴测 3D / 图片帧故事 / 品牌 VI / 片子改编",
+        "所有事实仅来自你提供的资料，生成后逐条列出由你确认"
+      ]
+    },
+    {
+      "type": "live",
+      "speakers": ["读者", "引擎"],
+      "lines": [
+        [0, "公众号会删掉所有 id，还能做互动吗？"],
+        [1, "可以：用「点一下揭开」，点到谁谁自己动", "?"],
+        [0, "那如果不点呢？"],
+        [1, "设了 click;6s，到点也会自动揭开继续播"]
+      ],
+      "highlight": 1,
+      "notes": [
+        "禁止 id 跨元素控制",
+        "支持 begin=\"click;Ns\"",
+        "零脚本原生触发",
+        "不点也能流畅看完"
+      ],
+      "tidy": "自动排版",
+      "button": "点此试一下",
+      "button_hint": "点击右侧按钮测试微信原生互动（或等待自动揭开）",
+      "auto_start": 4.5,
+      "system_audio": "WECHAT NATIVE INTERACTION · NO ID",
+      "status": "就绪",
+      "captions": [
+        "微信实测保留 click 与 touchstart 事件",
+        "交互能力边界：支持单点揭开，不支持复杂状态机"
+      ]
+    },
+    {
+      "type": "chronicle_chat",
+      "kicker": "BOUNDARIES & WORKFLOW",
+      "title": "能力边界与真实交付流程",
+      "messages": [
+        {
+          "side": "left",
+          "speaker": "创作者",
+          "text": "这套 Skill 有哪些明确不能碰的微信红线？"
+        },
+        {
+          "side": "right",
+          "speaker": "Agent",
+          "text": "不能用 id、渐变、滤镜、clipPath、JS 和音频；整篇体积必须控制在 1MB 以内，且动画随打开计时而非滚动位置。"
+        },
+        {
+          "side": "left",
+          "speaker": "创作者",
+          "text": "带本地图片的文章怎么进公众号？"
+        },
+        {
+          "side": "right",
+          "speaker": "Agent",
+          "text": "填了 AppID 用 --push 自动传微信图床并存草稿，还会拉回比对标签数；不填也能用粘贴台做规范体检后一键复制。"
+        }
+      ],
+      "caption": "推到草稿箱 ≠ 发布 · 发布永远由你自己点"
+    },
+    {
+      "type": "chronicle_coda",
+      "top": "XIAOER-WX-SVG · AGENT SKILL",
+      "mark": "成",
+      "bottom": "PURE SVG · NATIVE WECHAT",
+      "url": "github.com/OwenCedaric/xiaoer-wx-svg",
+      "note": "原作 Xiaoer Omia · Chronicle 主题作者 Cedaric"
+    }
+  ]
+}
